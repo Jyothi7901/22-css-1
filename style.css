@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#outer{
+    height: 1000px;
+    width: 1000px;
+    border: 2px solid black;
+}
+.row{
+    height: 125px;
+    width: 1000px;
+}
+.black{
+    height: 125px;
+    width: 125px;
+    background-color: white;
+    float: left;
+    font-size: 90px;
+    
+}
+.white{
+    height: 125px;
+    width: 125px;
+    background-color: orange;
+    float: left;
+    font-size: 90px;
+}

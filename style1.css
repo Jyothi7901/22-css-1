@@ -1,0 +1,51 @@
+img {
+    width: 40px;
+}
+
+#checkbox {
+    display: none;
+}
+
+.content>p {
+    background-color:deepskyblue;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.4s ease;
+    
+}
+
+#checkbox:checked+.content {
+    max-height: 300px;
+}
+.content:hover .content{
+    display: none;
+}
+.cheese:hover{
+    background-color:darkolivegreen;
+    text-shadow: 2px 2px 3px white;
+}
+.onions:hover{
+    background-color: fuchsia;
+    text-shadow: 2px 2px 3px white;
+}
+.ketchup:hover{
+    background-color:red;
+    text-shadow: 2px 2px 3px white;
+}
+.chicken:hover{
+    background-color:maroon;
+    text-shadow: 2px 2px 3px white;
+}
+
+
+
+
+
